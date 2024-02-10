@@ -14,6 +14,9 @@ const Policy = () => {
             <Parallax easing='easeInOut' speed="10" translateY={10}>
                 <div className='shape two'></div>
             </Parallax>
+            <Parallax easing='easeInOut' speed="10" translateY={10}>
+                <div className='shape three'></div>
+            </Parallax>
             <div className='why-bg'></div>
             <Container className='py-3 text-center why-data'>
                 <Image src={WhyLogo} className='why-logo mb-5 img-fluid' alt='logo' />

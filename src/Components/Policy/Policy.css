@@ -17,17 +17,17 @@
     line-height: normal;
 }
 
-.benfites-con .shape.one {
+.Why-con .shape.one {
     width: 60px;
     height: 60px;
     background: #07074E;
     animation: zoomIn 1s;
     visibility: visible !important;
-    left: 100px;
-    top: 150px;
+    left: 20%;
+    top: 300px;
 }
 
-.benfites-con .shape.two {
+.Why-con .shape.two {
     width: 180px;
     height: 180px;
     background: transparent;
@@ -35,7 +35,16 @@
     animation: zoomIn 1s;
     visibility: visible !important;
     left: 80%;
-    top: 30px;
+    top: 100px;
+}
+.Why-con .shape.three {
+    width: 20px;
+    height: 20px;
+    background: #00AEEF;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+    left: 40%;
+    top: 520px;
 }
 
 
