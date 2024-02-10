@@ -1,0 +1,60 @@
+.Why-con {
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+.why-data {
+    position: relative;
+}
+
+.why-data h1 {
+    color: var(--main-color);
+    font-family: "DINN";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.benfites-con .shape.one {
+    width: 60px;
+    height: 60px;
+    background: #07074E;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+    left: 100px;
+    top: 150px;
+}
+
+.benfites-con .shape.two {
+    width: 180px;
+    height: 180px;
+    background: transparent;
+    border: 2px solid #00AEEF;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+    left: 80%;
+    top: 30px;
+}
+
+
+.why-data h3 {
+    color: var(--Dark-Gray, #575757);
+    text-align: center;
+    font-family: "DINN";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media (max-width:992px) {
+    .why-data h1 {
+        font-size: 60px;
+    }
+
+    .why-data h3 {
+        font-size: 20px;
+    }
+}

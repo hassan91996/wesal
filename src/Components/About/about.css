@@ -1,0 +1,122 @@
+.about-con {
+    position: relative;
+}
+
+.about-con h4 {
+    color: #00AEEF;
+    font-family: "DINN";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+
+}
+
+.about-con h1 {
+    font-family: "DINN";
+    font-size: 148px;
+    font-weight: 700;
+    line-height: 130px;
+    letter-spacing: 0em;
+    color: #00AEEF;
+
+}
+
+.about-con h5 {
+    font-family: "DINN";
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    color: #07074E;
+    border-bottom: 8px solid #07074E;
+    white-space: nowrap;
+}
+
+.about-con p {
+    font-family: DIN Next LT Arabic;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    font-family: "DINN";
+    color: #60605C;
+}
+
+.shape {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.about-con .shape.one {
+    width: 60px;
+    height: 60px;
+    background: #07074E;
+    left: 50%;
+    top: 30px;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+}
+
+.about-con .shape.two {
+    width: 180px;
+    height: 180px;
+    background: transparent;
+    border: 2px solid #00AEEF;
+    left: 47%;
+    top: 150px;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+}
+
+.about-con .shape.three {
+    width: 25px;
+    height: 25px;
+    background: #00AEEF;
+    left: 50%;
+    top: 220px;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+}
+
+.about-con .shape.four {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #F4F4F2;
+    left: 80%;
+    top: 400px;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+}
+
+@media (max-width:992px) {
+    .about-con {
+        background-size: cover;
+        height: auto;
+    }
+
+    .shape {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .about-con h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .about-con h4 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .about-con h5 {
+        font-size: 24px;
+    }
+
+    .about-con p {
+        font-size: 18px;
+    }
+
+}

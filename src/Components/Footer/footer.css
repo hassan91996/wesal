@@ -1,0 +1,51 @@
+.Footer{
+    position: relative;
+    font-family: "DINN";
+}
+
+.Footer .footer-top-border {
+    width: 100%;
+    background-color: #202020;
+    height: 1px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.Footer p {
+    color: #202020;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Footer h5 {
+    color: #202020;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.Footer ul li {
+    display: flex;
+    margin: 8px 0;
+}
+
+.Footer ul li a {
+    display: flex;
+    color: #202020;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.Footer ul li a:hover{
+    color: var(--main-color);
+}

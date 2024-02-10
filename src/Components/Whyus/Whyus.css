@@ -1,0 +1,247 @@
+.why-con {
+    position: relative;
+    overflow: hidden;
+    font-family: DINN;
+}
+
+.why-con .why-bg {
+    position: absolute;
+    right: 0px;
+
+}
+
+.why-con .ar-why-bg {
+    position: absolute;
+    left: 0px;
+
+}
+
+.why-con h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    color: #07074E;
+
+}
+
+.why-con h4 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    color: #00AEEF;
+    border-bottom: 14px solid #07074E;
+
+}
+
+.why-con p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #60605C;
+}
+
+.why-con .shape.two {
+    width: 180px;
+    height: 180px;
+    background: transparent;
+    border: 2px solid #00AEEF;
+    left: 40%;
+    top: 100px;
+    z-index: -1;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+}
+
+.why-con .shape.one {
+    width: 60px;
+    height: 60px;
+    background-color: #07074E;
+    left: 54%;
+    top: 450px;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+}
+
+.why-con .shape.three {
+    width: 20px;
+    height: 20px;
+    background-color: #00AEEF;
+    left: 20px;
+    top: 600px;
+    animation: zoomIn 1s;
+    z-index: -1;
+    visibility: visible !important;
+}
+
+.why-con .shape.four {
+    width: 20px;
+    height: 20px;
+    background-color: #00AEEF;
+    left: 20px;
+    top: 640px;
+    z-index: -1;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+
+}
+
+.why-second {
+    position: relative;
+    min-height: 900px;
+}
+
+.why-second .why-second-bg {
+    position: absolute;
+    top: -40px;
+    left: 0;
+}
+
+.why-second .why-second-bg-ar {
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+
+.why-second-data {
+    position: relative;
+    min-height: 900px;
+
+}
+
+.why-second-data h3 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0em;
+    color: #07074E;
+}
+
+.why-second-data p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    color: #60605C;
+}
+
+.why-second-data h4 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0em;
+    color: #07074E;
+    border: none;
+}
+
+.why-third {
+    background-image: url(../../assets/why-third.png);
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.why-third-data {
+    min-height: 600px;
+}
+
+.third-main {
+    padding-top: 200px;
+}
+
+.third-main h1 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 103px;
+    letter-spacing: 0em;
+    color: #07074E;
+}
+
+.why-third-data h5 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    color: #60605C;
+}
+
+.final-why h5 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0em;
+    color: #07074E;
+}
+
+.final-why p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    color: #60605C;
+}
+
+@media (max-width:992px) {
+    .why-second {
+        min-height: unset;
+    }
+
+    .why-second-data {
+        min-height: unset
+    }
+
+    .why-third-data,
+    .why-third {
+        min-height: unset;
+    }
+
+    .third-main {
+        padding-top: 150px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .why-con h2 {
+        font-size: 35px;
+    }
+
+    .why-second-data h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .why-second-data p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .why-second-data h4 {
+        font-size: 25px;
+        line-height: 51px;
+    }
+
+    .third-main h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0
+    }
+
+    .why-third {
+        background-size: cover;
+    }
+
+    .why-third-data h5 {
+        font-size: 18px;
+
+    }
+    .final-why  h5 {
+        font-size: 24px;
+    }
+    .final-why  p {
+        font-size: 18px;
+    }
+}

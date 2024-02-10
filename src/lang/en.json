@@ -1,0 +1,108 @@
+{
+    "App": {
+        "title": "Wessal"
+    },
+    "header": {
+        "nav": {
+            "home": "Home",
+            "features": "Features",
+            "about": "About us",
+            "contact": "Contact us",
+            "services": "Services",
+            "benefits": "Benefits",
+            "compatitive": "Competitive Advantage"
+        },
+        "download": "DOWNLOAD"
+    },
+    "landing": {
+        "main": "Simplifying",
+        "second": "Community Living",
+        "text": "Discover a smarter way to live. Wessal brings your community closer with just a few clicks"
+    },
+    "features": {
+        "title": "Features",
+        "subTitle": "Easy and Efficient Living",
+        "ser1t": "Integrated Living",
+        "ser1d": "All your community services in one place",
+        "ser2t": "Streamlined Management",
+        "ser2d": "Making community tasks easier for administrators",
+        "ser3t": "Better Services",
+        "ser3d": "Connect easily with service providers",
+        "ser4t": "Safe and Secure",
+        "ser4d": "Advanced security for peace of mind"
+    },
+    "about": {
+        "title": "About Us",
+        "our": "OUR",
+        "mission": "MISSION ENHANCED LIVING",
+        "about-text": "At Wessal, we're redefining residential living. Our platform makes community management effortless and living spaces smarter."
+    },
+    "services": {
+        "title": "Services",
+        "subtitle": "Everything You Need",
+        "servicet1": "Issue Reporting",
+        "serviced1": "Report and resolve issues quickly.",
+        "servicet2": "Housekeeping",
+        "serviced2": "Book cleaning services easily.",
+        "servicet3": "Visitor Management",
+        "serviced3": "Manage your visitors efficiently.",
+        "servicet4": "Food & Drinks",
+        "serviced4": "Order from local eateries with ease.",
+        "servicet5": "Amenities",
+        "serviced5": "View and book community facilities.",
+        "servicet6": "Event Planning",
+        "serviced6": "Organize and RSVP to events easily.",
+        "servicet7": "Community Interaction",
+        "serviced7": "Stay connected with your neighbors.",
+        "servicet8": "Updates & News",
+        "serviced8": "Stay informed with the latest community news.",
+        "servicet9": "Facility Insights",
+        "serviced9": "Understand and use community spaces better.",
+        "servicet10": "Feedback System",
+        "serviced10": "Your voice matters. Share your thoughts."
+    },
+    "why": {
+        "title": "WHY WESSAL?",
+        "sub": "All-in-One Platform",
+        "des": "One app, multiple functions.",
+        "second-tit":"Convenience at Your Fingertips",
+        "seconddes":"Everything you need, easily accessible.",
+        "thirdtit":"Stronger Community Ties",
+        "thirddes":"Connect and engage with your neighbors.",
+        "Management":"Management",
+        "Smart":"Smart",
+        "four-des":"Data-driven insights for better decision-making.",
+        "Security":"Security and Growth",
+        "platform":"A platform that grows with your community."
+
+    },
+    "contact": {
+        "title": "Get in Touch:",
+        "head": "Have questions or interested in a demo? Contact us!",
+        "Name":"Name",
+        "Email":"Email",
+        "Mobile":"Mobile",
+        "Address":"Address",
+        "Write":"Write Your response here ........",
+        "Send":"Send Your Message",
+        "Submit":"Submit",
+        "Stay Connected":"Wessal - Stay Connected",
+        "Enter":"Enter your email",
+        "Success":"Your message send successfly",
+        "wrong":"Something went wrong! Tried so long"
+
+    },
+    "benfites": {
+        "title": "Ahead of the Curve",
+        "l1": "- Compatible with a range of devices for seamless experience.",
+        "l2":"- Works smoothly with various external services.",
+        "l3":"- Dedicated to continuous improvement and support."
+    },
+    "footer": {
+        "legal":"Legal",
+        "privacy":"Privacy Policy",
+        "text":"wessal.ai© 2024. All Rights Reserved. Terms and Conditions apply"
+    },
+    "policy":"We collect basic personal information such as your name and email address solely for the purpose of setting up and managing your account. Rest assured, your data is kept secure and confidential with us, and under no circumstances do we sell or trade your personal information to third parties.",
+    "privacr":"Privacy Policy"
+}

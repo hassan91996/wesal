@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'DINN';
+  src: url('../public/fonts/ArbFONTS-DINNextLTArabic-Regular-4.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dhyana';
+  src: url('../public/fonts/Dhyana.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url('../public/fonts//ArbFONTS-DINNextLTArabic-UltraLight-4.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --main-color: #009DFF;
+}

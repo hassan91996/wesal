@@ -1,0 +1,80 @@
+.features-con {
+    position: relative;
+    overflow: hidden;
+}
+
+.features-con h3 {
+    font-family: "DINN";
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 74px;
+    letter-spacing: 0em;
+    color: #07074E;
+
+}
+
+.features-con h4 {
+    font-family: "DINN";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    color: #60605C;
+
+}
+.features-con .shape.one {
+    width: 60px;
+    height: 60px;
+    background: #07074E;
+    left: 80%;
+    top: 40px;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+}
+.features-con  .shape.two {
+    width: 180px;
+    height: 180px;
+    background: transparent;
+    border: 2px solid #00AEEF;
+    left: 10px;
+    top: 150px;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+}
+.features-con  .shape.three {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #F4F4F2;
+    left: 80%;
+    top: 500px;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+}
+
+.feature {
+    border-radius: 30px;
+    background-color: #F4F4F2;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    position: relative;
+
+}
+
+.feature h5 {
+    font-family: "DINN";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: #07074E;
+
+}
+
+.feature p {
+    font-family: "DINN";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #60605C;
+
+}

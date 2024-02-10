@@ -1,0 +1,56 @@
+.benfites-con {
+    position: relative;
+    overflow: hidden;
+}
+
+.benfites-con .shape.one {
+    width: 60px;
+    height: 60px;
+    background: #07074E;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+    left: 100px;
+    top: 150px;
+}
+
+.benfites-con .shape.two {
+    width: 180px;
+    height: 180px;
+    background: transparent;
+    border: 2px solid #00AEEF;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+    left: 80%;
+    top: 30px;
+}
+
+.benfites-con h4 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    color: #07074E;
+
+}
+
+.benfites-con ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.benfites-con ul li {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    color: #60605C;
+    margin: 20px 0 ;
+}
+
+@media (max-width:768px) {
+    .benfites-con ul li {
+        font-size: 17px;
+    
+    }
+}

@@ -1,0 +1,51 @@
+.error-con {
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px !important;
+}
+
+
+.error-con {
+    position: relative;
+}
+
+.error-con h1 {
+    color: var(--main-color);
+    font-family: "DINN";
+    font-size: 160px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.error-con h5 {
+    color: var(--main-color);
+    font-family: "DINN";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.error-con .why-logo {
+    width: 427.119px;
+    height: 319.395px;
+}
+
+.error-con h3 {
+    color: var(--Dark-Gray, #575757);
+    text-align: center;
+    font-family: "DINN";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+@media (max-width:992px) {
+    .error-con h1 {
+        font-size: 60px;
+    }
+
+    .error-con  h3 {
+        font-size: 20px;
+    }
+}

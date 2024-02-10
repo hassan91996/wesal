@@ -1,0 +1,83 @@
+.home {
+    min-height: 630px;
+    position: relative;
+    padding-top: 100px;
+}
+
+.home .home-bg {
+    position: absolute;
+    background-image: url(../../assets/herobg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.home-content {
+    position: relative;
+}
+
+.home-content h1 {
+    color: #F4F4F2;
+    font-family: "DINN";
+    font-size: 110px;
+    font-weight: 500;
+    line-height: 162px;
+    letter-spacing: 0em;
+
+}
+
+.home-content h2 {
+    font-family: "DINN";
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 103px;
+    letter-spacing: 0em;
+    color: #F4F4F2;
+}
+
+.home-content p {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #F4F4F2;
+    font-family: "DINN";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #60605C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:768px) {
+    .home-content h1 {
+        font-size: 60px;
+        line-height: 80px;
+    
+    }
+    
+    .home-content h2 {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 60px;
+    }
+    
+    .home-content p {
+        padding: 10px 20px;
+        border-radius: 20px;
+        background-color: #F4F4F2;
+        font-family: "DINN";
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        color: #60605C;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

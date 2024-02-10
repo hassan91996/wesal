@@ -1,0 +1,79 @@
+.navbar {
+    background: transparent;
+}
+
+.navbar-brand img {
+    width: 85.359px;
+    height: 73.29px;
+}
+
+.navbar-nav .nav-link {
+    color: #F4F4F2;
+    font-family: DINN;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 0 6px;
+}
+
+
+.navbar .form-select {
+    background-color: transparent;
+    color: #F4F4F2;
+    font-weight: 700;
+    width: fit-content;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.navbar .form-select option {
+    color: black;
+}
+
+.navbar.white-bg {
+    background-color: #fff;
+}
+
+.navbar.white-bg .form-select,
+.navbar.white-bg .navbar-nav .nav-link {
+    color: #07074E;
+}
+
+.navbar.white-bg .navbar-nav .nav-link:active,
+.navbar.white-bg .navbar-nav .nav-link:hover,
+.navbar.white-bg .navbar-nav .nav-link.active,
+.navbar-nav .nav-link:active,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #00AEEF;
+}
+
+.navbar .navbar-toggler{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+@media (max-width:992px) {
+    .navbar {
+        background-color: #fff !important;
+    }
+
+    .dark-logo,
+    .light-logo {
+        display: none !important;
+    }
+
+    .navbar .form-select,
+    .navbar .navbar-nav .nav-link {
+        color: #07074E;
+    }
+
+}
+.navbar:not(.white-bg)  .nav-link:active,
+.navbar:not(.white-bg)  .nav-link.active{
+    color: #00AEEF !important;
+}

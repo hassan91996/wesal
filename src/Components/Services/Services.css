@@ -1,0 +1,77 @@
+.services-con {
+    position: relative;
+    overflow: hidden;
+    font-family: DINN;
+}
+
+
+.services-con h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: -0.35555556416511536px;
+    color: #07074E;
+
+}
+
+
+.services-con h4 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 2.640000104904175px;
+    color: #60605C;
+
+}
+
+.services-con .shape.one {
+    width: 60px;
+    height: 60px;
+    background: #07074E;
+    left: 90%;
+    top: 400px;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+}
+
+.services-con .shape.two {
+    width: 25px;
+    height: 25px;
+    background: #00AEEF;
+    left: 60%;
+    top: 100px;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+}
+
+.service {
+    position: relative;
+
+}
+
+.service h5 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    color: #00AEEF;
+    border-bottom: 14px solid #07074E;
+}
+
+.service p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #60605C;
+    /* border-top: 14px solid #07074E; */
+}
+.services-con  .shape.three {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #F4F4F2;
+    left: 80%;
+    top: 70px;
+    animation: zoomIn 1s;
+    visibility: visible !important;
+}
